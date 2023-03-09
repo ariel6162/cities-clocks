@@ -1,0 +1,6 @@
+<app-check-box [clocks]="clocks"></app-check-box>
+<div class="clocks-container">
+  <div *ngFor="let clock of clocks">
+    <app-clock [clock]="clock"></app-clock>
+  </div>
+</div>

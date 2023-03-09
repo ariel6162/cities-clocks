@@ -1,0 +1,7 @@
+<section class="example-section" [formGroup]="cities">
+  <h4>Select your clocks:</h4>
+
+  <div class="checkbox" *ngFor="let clock of clocks">
+    <input type="checkbox" [id]="clock.id" [name]="clock.city" [checked]="clock.checked" (change)="toggleClock(clock)">
+    <label [for]="clock.id">{{ this.clock.city }}</label>
+  </div>

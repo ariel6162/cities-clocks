@@ -1,0 +1,8 @@
+
+{
+"timeZones" : [
+  {"city": "London", "gap": 20 },
+  {"city": "Manhattan", "gap": 7 },
+  {"city": "Tokyo", "gap": 12 }
+]
+}
